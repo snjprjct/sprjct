@@ -4,10 +4,10 @@
     
   </div><!-- /.login-logo -->
   <div class="login-box-body effect2"  >
-    <h2 class="animation1" ><?php echo $this->cms->row()->judul ?></h2>
+    <h2 class="animation2" ><?php echo $this->cms->row()->judul ?></h2>
     <br>
     <div class="message"></div>
-    <form class="animation2" action="<?php echo site_url('auth/ajax_login')?>" method="post">
+    <form class="animation1" action="<?php echo site_url('auth/ajax_login')?>" method="post">
       <div class="form-group has-feedback" >
         <input type="text" name="identity" class="form-control input-lg input-login" placeholder="Email" autofocus />
         <span class="glyphicon glyphicon-envelope form-control-feedback icon-login"></span>

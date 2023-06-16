@@ -9,8 +9,8 @@
                     </div> -->
                     <div class="card-body">
                         <div style="margin-left: 40px">
-                            <h1>BDash</h1> 
-                            <p>This is starter kit for build web appliaction using codeigniter and some other libary for speeding development application.</p> 
+                            <h1>Senjani Photography</h1> 
+                            <p>Hallo, Administrator.</p> 
                         </div>
                         
                     </div>
