@@ -61,7 +61,8 @@
 						<div class="col-md-2 col-md-push-5 text-center">
 							<div id="colorlib-logo">
                                 <a href="<?php echo base_url() ?>">
-                                    <img src="<?php echo base_url('assets/frontend/images/'.$this->company->large_logo) ?>" alt="" style="width:64px;height:64px"> <br>
+                                    <br>
+									<!-- <img src="<?php echo base_url('assets/frontend/images/'.$this->company->large_logo) ?>" alt="" style="width:64px;height:64px"> <br> -->
                                     <?php  echo $this->company->company ?>
                                 </a>
                             </div>
@@ -86,7 +87,7 @@
 						</div>
 						<div class="col-md-5 text-left menu-1">
 							<ul>
-								<li><a href="<?php echo base_url("blog") ?>">Blog</a></li>
+								<li><a href="<?php echo base_url("blog") ?>">Package</a></li>
 								<li><a href="<?php echo base_url("about") ?>">About</a></li>
 								<li><a href="<?php echo base_url("contact") ?>">Contact</a></li>
 							</ul>

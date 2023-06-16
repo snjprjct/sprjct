@@ -5,7 +5,7 @@ class Blog extends CLIENT_Controller {
 
 	public function index()
 	{
-		$data['page_title']		= "Blog";
+		$data['page_title']		= "Package";
 		$data['blog'] 		    = $this->_getBlog();
 		$data['content']    	= $this->load->view('frontend/page/blog', $data, true);
         $this->load->view('frontend/master_template',$data); 
@@ -20,7 +20,7 @@ class Blog extends CLIENT_Controller {
     public function read($slug=null)
 	{
         $data['with_background']= true;
-		$data['page_title']		= "Blog";
+		$data['page_title']		= "Package";
 		$data['detail'] 		= $this->db->where("slug",$slug)->get("blog",1)->row();
 		$data['content']    	= $this->load->view('frontend/page/blog_detail', $data, true);
         $this->load->view('frontend/master_template',$data); 

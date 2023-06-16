@@ -51,7 +51,7 @@ class Portofolio extends ADMIN_Controller {
 		$output = $crud->render();
 		$data['script'] = '';//$this->load->view('admin/population/penduduk');
 		$data['script_grocery'] = "";
-		$data['judul'] = "Portofolio ";
+		$data['judul'] = "Portofolio";
 		$data['crumb'] = array( 'Portofolio ' => '' );
 
 		$template = 'admin_template';

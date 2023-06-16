@@ -5,8 +5,8 @@
             <div class="container">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="animate-box">
-                        <h2>Blog</h2>
-                        <p class="breadcrumbs"><span><a href="index.html">Home</a></span> <span>Blog</span></p>
+                        <h2>Package</h2>
+                        <p class="breadcrumbs"><span><a href="index.html">Home</a></span> <span>Package</span></p>
                     </div>
                 </div>
             </div>

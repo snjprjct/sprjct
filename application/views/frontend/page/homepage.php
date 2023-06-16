@@ -41,7 +41,7 @@
     </div>
 </div>
 <div class="colorlib-about-flex">
-    <div class="col-half about-flex-img animate-box" style="background-image: url(<?php echo base_url('assets/frontend/images/homepage/'.$homepage->company_image) ?>);"></div>
+<div class="col-half about-flex-img animate-box" style="background-image: url(<?php echo base_url('assets/frontend/images/homepage/'.$homepage->company_image) ?>);"></div>
     <div class="col-half">
         <div class="row">
             <div class="col-md-12 col-md-pull-2 animate-box">

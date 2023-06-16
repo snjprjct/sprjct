@@ -20,7 +20,7 @@ class Profile extends ADMIN_Controller {
 
 		$crud->fields('company','large_logo','favicon','address','email','phone','footer_text');
 
-        $crud->set_field_upload('large_logo','assets/frontend/images');
+        //$crud->set_field_upload('large_logo','assets/frontend/images');
         $crud->set_field_upload('favicon','assets/frontend/images');
 
 

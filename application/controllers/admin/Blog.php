@@ -49,7 +49,7 @@ class Blog extends ADMIN_Controller {
 		$output = $crud->render();
 		$data['script'] = '';//$this->load->view('admin/population/penduduk');
 		$data['script_grocery'] = "";
-		$data['judul'] = "Blog";
+		$data['judul'] = "blog";
 		$data['crumb'] = array( 'Blog' => '' );
 
 		$template = 'admin_template';

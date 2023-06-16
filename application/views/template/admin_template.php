@@ -3,11 +3,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" />logo
     <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url("assets-new") ?>/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets/img/'.$this->cms->row()->favicon) ?>"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>BDash</title>
+    <title>Admin Senjani</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--GroceryCRUD CSS-->
     <?php if (isset($css_files)) : ?>
