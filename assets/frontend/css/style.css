@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 0; }
   @media screen and (max-width: 768px) {
     .video-hero {
-      heifght: inherit;
+      height: inherit;
       padding: 3em 0; } }
   .video-hero .overlay {
     position: absolute;
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6, figure {
     z-index: -1; }
   .video-hero .display-t {
     display: table;
-    height: 800px;
+    height: 940px;
     width: 100%;
     position: relative;
     z-index: 2; }
@@ -358,8 +358,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-contact,
 .colorlib-blog,
 #colorlib-instagram {
-  padding: 7em 0;
-  clear: both; }
+  padding: 13.23em 0;
+  clear: both; 
+}
 
 .services-img {
   height: 320px;

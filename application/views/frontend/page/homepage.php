@@ -1,4 +1,4 @@
-<section id="home" class="video-hero" style="height: 800px; background-image: url(<?php echo base_url('assets/frontend/images/homepage/'.$homepage->background) ?>);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+<section id="home" class="video-hero" style=" background-image: url(<?php echo base_url('assets/frontend/images/homepage/') ?>/background.jpg);  background-size:cover; background-repeat: no-repeat; background-position: center;background-attachment:fixed;" data-section="home">
     <div class="overlay"></div>
     <a class="player" ></a> 
     <div class="display-t text-center">
@@ -15,7 +15,8 @@
     </div>
 </section>
 
-<div id="colorlib-services">
+
+<!-- <div id="colorlib-services">
     <div class="container">
         <div class="row">
             <?php 
@@ -84,5 +85,5 @@
             ?>
         </div>
     </div>
-</div>
+</div> -->
 

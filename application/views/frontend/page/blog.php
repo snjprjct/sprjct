@@ -1,4 +1,4 @@
-<section id="home" class="video-hero" style="height: 800px; background-image: url(<?php echo base_url("assets/frontend") ?>/images/cover_img_2.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+<!-- <section id="home" class="video-hero" style="height: 800px; background-image: url(<?php echo base_url("assets/frontend") ?>/images/cover_img_2.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
 <div class="overlay"></div>
     <div class="display-t text-center">
         <div class="display-tc">
@@ -12,9 +12,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<div class="colorlib-blog">
+<div class="colorlib-blog" style=" background-image: url(<?php echo base_url('assets/frontend/images/homepage/') ?>/background.jpg);  background-size:cover; background-repeat: no-repeat; background-position: center;background-attachment:fixed;" data-section="home">
     <div class="container">
         <div class="row row-pb-md">
             <?php 

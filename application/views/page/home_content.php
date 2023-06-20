@@ -26,7 +26,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12">
+                                <!-- <div class="col-lg-12">
                                     <div style="padding:20px;text-align:center;border:solid #9369e3 2px;margin-bottom:15px;" >
                                         <a style="color:#9368e2" href="<?php echo base_url("admin/service") ?>" target="_blank">
                                             <i class="fa fa-pencil"></i> Manage List Service
@@ -51,7 +51,7 @@
                                         </a>
                                         <img src="<?php echo base_url('assets/img/home_content/blog.PNG') ?>" style="max-width:100%;" alt="">
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>

@@ -1,7 +1,7 @@
 <br>
 <br>
 <br>
-<div id="colorlib-about">
+<div id="colorlib-about" >
     <div class="container">
         <div class="row row-pb-lg">
             <div class="col-md-6 animate-box">

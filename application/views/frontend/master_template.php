@@ -53,6 +53,7 @@
 		
 	<div class="colorlib-loader"></div>
 
+	
 	<div id="page">
 		<nav class="colorlib-nav  <?php echo isset($with_background)?'with-background':''; ?>" role="navigation">
 			<div class="top-menu">
@@ -69,10 +70,10 @@
 						</div>
 						<div class="col-md-5 col-md-pull-2 text-right menu-1">
 							<ul>
-								<li class="active"><a href="<?php echo base_url() ?>">Home</a></li>
-								<li class="has-dropdown">
+								<li <?php if($this->uri->segment(1)==""){echo 'class="active"';}?>><a href="<?php echo base_url() ?>">Home</a></li>
+								<li class="has-dropdown" >
 									<a href="#">Portofolio</a>
-									<ul class="dropdown">
+									<ul class="dropdown" <?php if($this->uri->segment(1)=="portofolio"){echo 'class="active"';}?>>
                                         <?php 
                                         if($this->portofolio->num_rows()>0){
                                             foreach($this->portofolio->result() as $key){
@@ -82,14 +83,26 @@
                                         ?>
 									</ul>
 								</li>
-								<li><a href="<?php echo base_url("service") ?>">Services</a></li>
+								<!-- <li <?php if($this->uri->segment(1)=="service"){echo 'class="active"';}?>><a href="<?php echo base_url("service") ?>">Services</a></li> -->
 							</ul>
 						</div>
 						<div class="col-md-5 text-left menu-1">
 							<ul>
-								<li><a href="<?php echo base_url("blog") ?>">Package</a></li>
-								<li><a href="<?php echo base_url("about") ?>">About</a></li>
-								<li><a href="<?php echo base_url("contact") ?>">Contact</a></li>
+							<li class="has-dropdown" >
+									<a href="#">Package</a>
+									<ul class="dropdown" <?php if($this->uri->segment(1)=="portofolio"){echo 'class="active"';}?>>
+                                        <?php 
+                                        if($this->portofolio->num_rows()>0){
+                                            foreach($this->portofolio->result() as $key){
+                                                echo '<li><a href="'.base_url("portofolio/index/".$key->id."/".$key->name).'">'.$key->name.'</a></li>';
+                                            }
+                                        }
+                                        ?>
+									</ul>
+								</li>
+								<!-- <li <?php if($this->uri->segment(1)=="blog"){echo 'class="active"';}?>><a href="<?php echo base_url("blog") ?>">Package</a></li> -->
+								<!-- <li <?php if($this->uri->segment(1)=="about"){echo 'class="active"';}?>><a href="<?php echo base_url("about") ?>">About</a></li> -->
+								<li <?php if($this->uri->segment(1)=="contact"){echo 'class="active"';}?>><a href="<?php echo base_url("contact") ?>">Contact</a></li>
 							</ul>
 						</div>
 					</div>
@@ -99,7 +112,7 @@
 
 		<?php echo $content; ?>
 
-		<footer id="colorlib-footer">
+		<!-- <footer id="colorlib-footer">
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col-md-3 colorlib-widget">
@@ -143,7 +156,7 @@
 					</div>
 				</div>
 			</div>
-		</footer>
+		</footer> -->
 	</div>
 
 	<div class="gototop js-top">
