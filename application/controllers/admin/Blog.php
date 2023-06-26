@@ -13,7 +13,7 @@ class Blog extends ADMIN_Controller {
 		$crud = new grocery_CRUD();
 
 		$crud->set_table('blog');
-		$crud->set_subject('Blog');
+		$crud->set_subject('Package');
         $crud->order_by("created_at","desc");
 
 		$crud->columns('title','summary','image');
@@ -43,7 +43,7 @@ class Blog extends ADMIN_Controller {
 
 
 		$crud->required_fields('title','summary','content','image');
-		$data['title_page'] = 'Blog';
+		$data['title_page'] = 'Package';
 
 
 		$output = $crud->render();

@@ -9,7 +9,7 @@
                     </div> -->
                     <div class="card-body">
                         <div style="margin: 40px">
-                            <h4>Home Content</h4> 
+                            <h4>Background dan Moto</h4> 
                             <div style="clear:both;"></div>
                             
                             

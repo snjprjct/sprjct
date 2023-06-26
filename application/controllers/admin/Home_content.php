@@ -14,7 +14,7 @@ class Home_content extends ADMIN_Controller {
         $homepage = $this->db->get("homepage")->row();
         $output = (object)array('data' => '','homepage'=>$homepage , 'output' => '' , 'js_files' => null , 'css_files' => null);
 			
-        $data['title_page'] = 'Dashboard';
+        $data['title_page'] = 'Home Content';
 
 
         $template = 'admin_template';

@@ -46,7 +46,7 @@ class Portofolio extends ADMIN_Controller {
 
 
 		$crud->required_fields('title','category_id','sub_category_id');
-
+        $data['title_page'] = 'Portofolio';
 
 		$output = $crud->render();
 		$data['script'] = '';//$this->load->view('admin/population/penduduk');
