@@ -1,13 +1,19 @@
 <section id="home" class="video-hero" style=" background-image: url(<?php echo base_url('assets/frontend/images/homepage/') ?>/background.jpg);  background-size:cover; background-repeat: no-repeat; background-position: center;background-attachment:fixed;" data-section="home">
     <div class="overlay"></div>
     <a class="player" ></a> 
-    <div class="display-t text-center">
+    <div class="display-t text-right">
         <div class="display-tc">
             <div class="container">
-                <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-1 col-offset-1">
                     <div class="animate-box">
-                        <h1 class="holder"><span><?php echo $homepage->moto  ?></span></h1>
-                        <h2><?php echo $homepage->moto_description  ?></h2>
+                        <h2><span><?php echo $homepage->moto  ?></span></h2>
+                            <div class="container">
+                            <div class="col-md-12 col-offset-1">
+                                <h2><font size="5"><?php echo $homepage->moto_description  ?></font></h2>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

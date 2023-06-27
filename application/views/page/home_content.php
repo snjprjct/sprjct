@@ -15,11 +15,11 @@
                             
                         </div>
                         <div class="container" style="padding:40px">
-                            <div class="row" style="border:solid #9369e3 2px;padding:40px;border-radius:10px;">
+                            <div class="row" style="border:solid #787876 2px;padding:40px;border-radius:10px;">
                                     
                                 <div class="col-lg-12">
-                                    <div style="padding:20px;text-align:center;border:solid #9369e3 2px;margin-bottom:15px;" >
-                                        <a style="color:#9368e2" href="<?php echo base_url("admin/homepage_setting/index/edit/1?mode=setting1") ?>" target="_blank">
+                                    <div style="padding:20px;text-align:center;border:solid #3472F7 2px;margin-bottom:15px;" >
+                                        <a style="color:#3472F7" href="<?php echo base_url("admin/homepage_setting/index/edit/1?mode=setting1") ?>" target="_blank">
                                             <i class="fa fa-pencil"></i> Edit Background dan Moto Utama
                                         </a>
                                         <img src="<?php echo base_url('assets/img/home_content/home-photo.PNG') ?>" style="max-width:100%;" alt="">

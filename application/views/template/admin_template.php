@@ -37,7 +37,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="sidebar" data-image="<?php echo base_url("assets-new") ?>/img/sidebar-5.jpg" data-color="purple">
+        <div class="sidebar" data-image="<?php echo base_url("assets-new") ?>/img/sidebar-6.jpg" data-color="black">
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
