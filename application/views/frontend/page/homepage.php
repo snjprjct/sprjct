@@ -4,14 +4,21 @@
     <div class="display-t text-right">
         <div class="display-tc">
             <div class="container">
-                <div class="col-md-1 col-offset-1">
-                    <div class="animate-box">
-                        <h2><span><?php echo $homepage->moto  ?></span></h2>
-                            <div class="container">
-                            <div class="col-md-12 col-offset-1">
-                                <h2><font size="5"><?php echo $homepage->moto_description  ?></font></h2>
-                            </div>
-                            </div>
+            <div class="col-md-1 col-md-pull-1">
+                        <div class="animate-box">
+                            <h2><span><?php echo $homepage->moto  ?></span></h2>
+                                <div class="row">
+                    
+                                <div class="container">
+                                        <div class="col-md-6 col-md-push-8">
+                                            <p></p>
+                                            <p></p>
+                                            <p></p>
+                                            <p></p>
+                                            <p></p>
+                                            <div><font size="3" color="#FFFFFF" align="justify text-right"><?php echo $homepage->moto_description  ?></font></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
