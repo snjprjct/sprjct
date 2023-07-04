@@ -1,5 +1,5 @@
-<section id="home" class="video-hero" style="height: 800px; background-image: url(<?php echo base_url("assets/frontend") ?>/images/cover_img_2.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
-<div class="overlay"></div>
+<section id="home" class="video-hero" style=" background-image: url(<?php echo base_url("assets/frontend") ?>/images/cover_img_2.jpg);  background-size:cover; background-repeat: no-repeat; background-position: center;background-attachment:fixed;" data-section="home">
+<!-- <div class="overlay"></div>
     <div class="display-t text-center">
         <div class="display-tc">
             <div class="container">
@@ -11,10 +11,8 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<div id="colorlib-contact">
+    </div> -->
+    <div id="colorlib-contact">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-push-8 animate-box">
@@ -97,3 +95,4 @@
         </div>
     </div>
 </div>
+</section>
